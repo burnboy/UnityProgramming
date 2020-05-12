@@ -39,6 +39,9 @@ MonoBehaviour:
   - ApplyUpdatedHealth
   - OnDamage
   - RestoreHealth
+  - AddAmmo
+  - ShotEffectProcessOnClients
+  - Setup
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0
