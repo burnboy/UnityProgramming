@@ -123,6 +123,7 @@ public class Gun : MonoBehaviourPun, IPunObservable
     }
 
     // 실제 발사 처리
+    [PunRPC]
     private void ShotProcessOnServer() {
         //레이케스트에 의한 충돌 정보를 저장하는 컨테이너
         RaycastHit hit;
